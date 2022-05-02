@@ -7,4 +7,4 @@ player2 = Player.new("Bob")
 
 game = Game.new(player1, player2)
 
-game.new_turn
+game.run

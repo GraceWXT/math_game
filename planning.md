@@ -1,9 +1,9 @@
 ### Player
-State: name, lives (number)
+State: name (string), life (number)
 Methods: lose_life
 ### Game
-State: current_player, idle_player, turn
-Methods: new_turn(current_player)
+State: player1, player2,current_player, idle_player, turn
+Methods: run
 ### Question
 State: two values
 Methods: correct?
