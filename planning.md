@@ -2,8 +2,8 @@
 State: name, lives (number)
 Methods: lose_life
 ### Game
-State: players (array), current_player
+State: current_player, idle_player, turn
 Methods: new_turn(current_player)
 ### Question
 State: two values
-Methods: evaluation?
+Methods: correct?
